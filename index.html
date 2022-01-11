@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <h1>Personal details</h1>
+      <form action="">
+        <fieldset>
+          <label>
+            Name:
+            <input placeholder="Enter name" type="text" name="name">
+          </label>
+        </fieldset>
+        <fieldset>
+          <label>
+            Password:
+            <input placeholder="Enter password" type="password" name="password">
+          </label>
+        </fieldset>
+        <fieldset>
+          <label>
+            E-mail:
+            <input placeholder="Enter email" type="email" name="email">
+          </label>
+        </fieldset>
+        <fieldset>
+          <label>
+            Gender:
+              <input  id="man" type="radio" name="gender">
+            <label for="man">Male</label>
+            <input id="woman" type="radio" name="gender">
+            <label for="woman">Female</label>
+          </label>
+        </fieldset>
+        <fieldset>
+          <label for="country">Country:</label>
+          <select name="country" id="country">
+            <option value="Украина">Ukraine</option>
+            <option value="Россия">Russian</option>
+            <option value="Польша">Poland</option>
+            <option value="Англия">Unaited Kingdom</option>
+          </select>
+        </fieldset>
+            <fieldset>
+              <Label>
+                Abilities: 
+              </Label>
+
+              <input type="checkbox" id="driving">
+              <label for="driving">Can drive</label>
+
+              <input type="checkbox" id="cooking">
+              <label for="cooking">Can cooke</label>
+            </fieldset>
+
+            <input type="submit">
+      </form>
+    </main>
+   
+    
+  </body>
+</html>
